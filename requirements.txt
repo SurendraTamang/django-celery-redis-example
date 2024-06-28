@@ -1,0 +1,4 @@
+django
+redis
+python-dotenv
+celery

@@ -6,10 +6,11 @@ from invitation.forms import SignUpForm
 class SignUpView(FormView):
     template_name ="invitation/signup.html"
     form_class = SignUpForm
+    success_url = '/success/'
 
     def form_valid(self, form):
         form.send_email()
-        return super().form_valid(form=form)
+        return super().form_valid(form)
     
 
 class SuccessView(TemplateView):
