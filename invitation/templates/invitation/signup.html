@@ -1,0 +1,12 @@
+{% extends "invitation/base.html" %}
+{% block content %}
+<h1>Sign Up Form</h1>
+<form method="post">
+    {{ form.as_p }}
+</form>
+<div>
+    <input type="button" value="Send">
+</div>
+
+<hr>
+{% endblock content %}
