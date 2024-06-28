@@ -1,5 +1,5 @@
 # Django with Celery and Redis
-It quick example how Django, Celery, Redis works together for learning purpose.
+I created this for teaching Django, Redis, Celery tutorial
 
 
 
@@ -24,3 +24,14 @@ celery -A inviteMe worker -l info
 ```
 python manage.py runserver
 ```
+
+### Result
+
+Signup Form Page
+![Dashboard](assets/img/dash.png)
+
+
+One the form is submitted. You will get and email.
+
+
+![email_recieved](assets/img/emai.png)
